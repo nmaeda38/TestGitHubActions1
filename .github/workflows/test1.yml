@@ -6,7 +6,7 @@ on:
       - 'main'
 jobs:
   print-info-job:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest windows-latest
     steps:
       - run: echo "Hello World GitHub Actions"
       - run: echo "Event - ${{ github.event_name }}"
